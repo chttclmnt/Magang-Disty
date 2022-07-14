@@ -1,0 +1,84 @@
+body {
+  font-family: "Montserrat" !important;
+  height: 100vh;
+}
+
+title {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.navigation {
+  height: 57px;
+  width: 761px;
+  left: 10px;
+  top: 44px;
+  border-radius: 0px;
+
+  width: 70%;
+  margin: auto;
+}
+.foto1 {
+  height: 846px;
+  width: 562px;
+  left: 305px;
+  top: 136px;
+  border-radius: 0px;
+}
+a:link {
+  color: gray;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: rebeccapurple;
+}
+a:active {
+  color: teal;
+}
+/* #navigation { }  */
+
+p {
+  font-size: 110%;
+  color: black;
+}
+#contents {
+  float: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: sans-serif;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #fff;
+}
+footer {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: 0em;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
